@@ -1,9 +1,9 @@
 //CONFIGURACION SDK PARA AVATAR ANIMADO
-      SDK.applicationId = "<botLibreApplicationID>";
+      SDK.applicationId = "4849086599635959410";
       var sdk = new SDKConnection();
       var web = new WebAvatar();
       web.connection = sdk;
-      web.avatar = "<avatarID>";
+      web.avatar = "13974718";
       web.voice = "istc-lucia-hsmm";
       web.voiceMod = "default";
       web.lang = "es";
@@ -14,7 +14,7 @@
       web.processMessages();
 	  
 //CONFIGURACION DE API.AI
-      var accessToken = "<apiAIaccessToken>";
+      var accessToken = "e434d720c00845ffa75cfdd256740f05";
       var baseUrl = "https://api.api.ai/v1/";
       $(document).ready(function() {
       $("#chat").keypress(function(event) {
